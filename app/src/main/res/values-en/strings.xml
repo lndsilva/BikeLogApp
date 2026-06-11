@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bike Log</string>
+    <string name="titulo">Title</string>
+    <string name="descricao">Its a bike designer...</string>
+</resources>

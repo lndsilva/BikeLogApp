@@ -31,18 +31,20 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="5sp"
                 android:text="@string/titulo"
-                android:textColor="#212F04"
+                android:textColor="@color/titulo_color"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5sp"
                 android:layout_marginTop="20sp"
-                android:lineSpacingExtra="@dimen/cardview_default_elevation"
+                android:lineSpacingExtra="3sp"
                 android:text="@string/descricao"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textColor="@color/descricao_color"
+                android:textSize="11sp" />
 
             <RatingBar
                 style="@style/Widget.AppCompat.RatingBar.Indicator"
