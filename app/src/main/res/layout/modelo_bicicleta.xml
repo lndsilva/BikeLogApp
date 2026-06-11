@@ -62,9 +62,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32sp"
-                    android:text="4.5"
+                    android:text="@string/num_card"
                     android:textSize="18sp"
                     android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_comprar"
+
+                    />
             </LinearLayout>
 
         </LinearLayout>
