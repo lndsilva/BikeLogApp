@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="descricao">É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.</string>
+    <string name="titulo">Título</string>
 </resources>
