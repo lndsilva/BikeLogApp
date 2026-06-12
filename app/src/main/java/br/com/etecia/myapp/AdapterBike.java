@@ -37,6 +37,11 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        holder.txtTituloBike.setText(lstBike.get(position).getTitulo());
+        holder.txtDescricaoBike.setText(lstBike.get(position).getDescricao());
+        holder.txtNumBike.setText(lstBike.get(position).getNota());
+        holder.rtbBike.setRating(lstBike.get(position).getNumRating());
+
 
     }
 
@@ -47,7 +52,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView imgBike;
-        TextView idTituloBike, txtDescricaoBike, txtNumBike;
+        TextView txtTituloBike, txtDescricaoBike, txtNumBike;
         RatingBar rtbBike;
         Button btnComprarBike;
 
@@ -57,7 +62,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             imgBike = itemView.findViewById(R.id.imgBike);
-            idTituloBike = itemView.findViewById(R.id.idTituloBike);
+            txtTituloBike = itemView.findViewById(R.id.txtTituloBike);
             txtDescricaoBike = itemView.findViewById(R.id.txtDescricaoBike);
             txtNumBike = itemView.findViewById(R.id.txtNumBike);
             rtbBike = itemView.findViewById(R.id.idCardBikes);
