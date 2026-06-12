@@ -32,15 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
         lstBike = new ArrayList<>();
         lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 5, "5.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 6, "6.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 9, "9.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 8, "8.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 4, "4.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 3, "3.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 2, "2.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 1, "1.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 9, "9.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 8, "8.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Speed", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 6, "6.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Urbana", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 9, "9.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Elétrica (E-Bike)", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 8, "8.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Gravel", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 4, "4.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Dobrável", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 3, "3.0", R.drawable.bicycle));
+        lstBike.add(new Bike("BMX", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 2, "2.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Cruiser / Passeio", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 1, "1.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Fixa (Fixed Gear)", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 9, "9.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Carga", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 8, "8.0", R.drawable.bicycle));
 
         AdapterBike adapterBike = new AdapterBike(getApplicationContext(), lstBike);
 
