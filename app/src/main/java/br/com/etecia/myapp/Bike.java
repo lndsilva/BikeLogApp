@@ -2,17 +2,14 @@ package br.com.etecia.myapp;
 
 public class Bike {
     private String titulo;
-    private String descricao;
+    private String subTitulo;
     private int numRating;
     private String nota;
     private int imgBike;
 
-    public Bike() {
-    }
-
-    public Bike(String titulo, String descricao, int numRating, String nota, int imgBike) {
+    public Bike(String titulo, String subTitulo, int numRating, String nota, int imgBike) {
         this.titulo = titulo;
-        this.descricao = descricao;
+        this.subTitulo = subTitulo;
         this.numRating = numRating;
         this.nota = nota;
         this.imgBike = imgBike;
@@ -26,12 +23,12 @@ public class Bike {
         this.titulo = titulo;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getSubTitulo() {
+        return subTitulo;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setSubTitulo(String subTitulo) {
+        this.subTitulo = subTitulo;
     }
 
     public int getNumRating() {

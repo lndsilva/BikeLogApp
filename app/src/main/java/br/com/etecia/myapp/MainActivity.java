@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         idRecBikes = findViewById(R.id.idRecBikes);
 
         lstBike = new ArrayList<>();
-        lstBike.add(new Bike());
+        lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 5, "5.0", R.drawable.bicycle));
 
-        AdapterBike adapterBike = new AdapterBike(getApplicationContext(),lstBike);
+        AdapterBike adapterBike = new AdapterBike(getApplicationContext(), lstBike);
 
         idRecBikes.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         idRecBikes.setHasFixedSize(true);

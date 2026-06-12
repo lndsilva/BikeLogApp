@@ -43,7 +43,7 @@
                 android:layout_margin="5sp"
                 android:layout_marginTop="20sp"
                 android:lineSpacingExtra="3sp"
-                android:text="@string/descricao"
+                android:text="@string/subTitulo"
                 android:textAlignment="center"
                 android:textColor="@color/descricao_color"
                 android:textSize="11sp" />

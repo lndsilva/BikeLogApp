@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bike Log</string>
     <string name="titulo">Título</string>
-    <string name="descricao">É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.</string>
+    <string name="subTitulo">É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.</string>
     <string name="btn_comprar">Comprar</string>
     <string name="num_card">4.5</string>
 
