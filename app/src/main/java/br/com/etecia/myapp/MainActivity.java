@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         lstBike = new ArrayList<>();
         lstBike.add(new Bike("Mountain Bike", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 5, "5.0", R.drawable.bicycle));
-        lstBike.add(new Bike("Speed", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 6, "6.0", R.drawable.bicycle));
+        lstBike.add(new Bike("Speed", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 6, "6.0", R.drawable.speed));
         lstBike.add(new Bike("Urbana", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 9, "9.0", R.drawable.bicycle));
         lstBike.add(new Bike("Elétrica (E-Bike)", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 8, "8.0", R.drawable.bicycle));
         lstBike.add(new Bike("Gravel", "É uma bicicleta projetada especificamente para pedalar em terrenos off-road, como trilhas, estradas de terra, montanhas e ambientes acidentados.", 4, "4.0", R.drawable.bicycle));

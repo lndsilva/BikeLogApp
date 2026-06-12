@@ -41,6 +41,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
         holder.txtDescricaoBike.setText(lstBike.get(position).getSubTitulo());
         holder.txtNumBike.setText(lstBike.get(position).getNota());
         holder.rtbBike.setRating(lstBike.get(position).getNumRating());
+        holder.imgBike.setImageResource(lstBike.get(position).getImgBike());
     }
 
     @Override
