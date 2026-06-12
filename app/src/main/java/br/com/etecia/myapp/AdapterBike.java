@@ -10,6 +10,7 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -50,9 +51,18 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
         RatingBar rtbBike;
         Button btnComprarBike;
 
+        CardView idCardBikes;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            imgBike = itemView.findViewById(R.id.imgBike);
+            idTituloBike = itemView.findViewById(R.id.idTituloBike);
+            txtDescricaoBike = itemView.findViewById(R.id.txtDescricaoBike);
+            txtNumBike = itemView.findViewById(R.id.txtNumBike);
+            rtbBike = itemView.findViewById(R.id.idCardBikes);
+            btnComprarBike = itemView.findViewById(R.id.btnComprarBike);
+            idCardBikes = itemView.findViewById(R.id.idCardBikes);
         }
     }
 }
