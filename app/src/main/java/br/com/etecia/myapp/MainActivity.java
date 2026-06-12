@@ -7,8 +7,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    RecyclerView idRecBikes;
+    List<Bike> lstBike;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +27,13 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        idRecBikes = findViewById(R.id.idRecBikes);
+
+        lstBike = new ArrayList<>();
+        lstBike.add(new Bike());
+
+        idRecBikes.setLayoutManager(new LinearLayoutManager());
+
     }
 }
