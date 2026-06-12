@@ -33,7 +33,12 @@ public class MainActivity extends AppCompatActivity {
         lstBike = new ArrayList<>();
         lstBike.add(new Bike());
 
-        idRecBikes.setLayoutManager(new LinearLayoutManager());
+        AdapterBike adapterBike = new AdapterBike(getApplicationContext(),lstBike);
+
+        idRecBikes.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+        idRecBikes.setHasFixedSize(true);
+
+        idRecBikes.setAdapter(adapterBike);
 
     }
 }
