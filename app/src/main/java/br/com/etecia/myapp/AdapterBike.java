@@ -4,6 +4,10 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RatingBar;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -25,7 +29,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
         View view;
 
         LayoutInflater inflater = LayoutInflater.from(context);
-        view = inflater.inflate(R.layout.modelo_bicicleta,parent,false);
+        view = inflater.inflate(R.layout.modelo_bicicleta, parent, false);
 
         return new ViewHolder(view);
     }
@@ -37,10 +41,15 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return lstBike.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        ImageView imgBike;
+        TextView idTituloBike, txtDescricaoBike, txtNumBike;
+        RatingBar rtbBike;
+        Button btnComprarBike;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
