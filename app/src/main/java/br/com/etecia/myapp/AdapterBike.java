@@ -16,8 +16,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
-    private Context context;
-    private List<Bike> lstBike;
+    private final Context context;
+    private final List<Bike> lstBike;
 
     public AdapterBike(Context context, List<Bike> lstBike) {
         this.context = context;
@@ -41,8 +41,6 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
         holder.txtDescricaoBike.setText(lstBike.get(position).getDescricao());
         holder.txtNumBike.setText(lstBike.get(position).getNota());
         holder.rtbBike.setRating(lstBike.get(position).getNumRating());
-
-
     }
 
     @Override
@@ -50,7 +48,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
         return lstBike.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView imgBike;
         TextView txtTituloBike, txtDescricaoBike, txtNumBike;
         RatingBar rtbBike;
