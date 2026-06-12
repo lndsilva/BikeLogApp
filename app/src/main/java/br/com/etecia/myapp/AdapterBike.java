@@ -38,7 +38,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.txtTituloBike.setText(lstBike.get(position).getTitulo());
-        holder.txtDescricaoBike.setText(lstBike.get(position).getDescricao());
+        holder.txtDescricaoBike.setText(lstBike.get(position).getSubTitulo());
         holder.txtNumBike.setText(lstBike.get(position).getNota());
         holder.rtbBike.setRating(lstBike.get(position).getNumRating());
     }
@@ -63,7 +63,7 @@ public class AdapterBike extends RecyclerView.Adapter<AdapterBike.ViewHolder> {
             txtTituloBike = itemView.findViewById(R.id.txtTituloBike);
             txtDescricaoBike = itemView.findViewById(R.id.txtDescricaoBike);
             txtNumBike = itemView.findViewById(R.id.txtNumBike);
-            rtbBike = itemView.findViewById(R.id.idCardBikes);
+            rtbBike = itemView.findViewById(R.id.rtbBike);
             btnComprarBike = itemView.findViewById(R.id.btnComprarBike);
             idCardBikes = itemView.findViewById(R.id.idCardBikes);
         }
